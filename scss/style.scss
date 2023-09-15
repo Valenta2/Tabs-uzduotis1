@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: Russo+Ones;
+}
+body {
+  background: url(../images/Universe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  
+}
+
+h1 {
+  text-align: center;
+  margin: 50px auto;
+  color: gold;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+  width: 200px;
+  height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: crimson;
+  border: none;
+  border-radius: 10px;
+}
+button:hover{
+  background: gold;
+  color: red;
+  transition: 0.3s;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto;
+  gap: 20px;
+  padding: 15px;
+  color: white;
+  
+  // transform: translateX(100%);
+  // transition: 1s;
+}
+
+
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: gold;
+  font-weight: bold;
+  // transform: translateX(0%);
+ 
+}
+
+
+// .translate {
+//   transform: translateX(0%);
+// }
+// .contents.active {
+//   opacity: 1;
+// }
+.contents p {
+  font-size: 1.5em;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contents h2 {
+  font-size: 2em;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contents h2:after {
+  content: "";
+  background: red;
+  margin: auto;
+  width: 0;
+  height: 5px;
+  display: flex;
+  transition: 0.5s;
+}
+.contents h2:hover:after {
+  width: 200px;
+}
+
+.contents h2:before {
+  content: "";
+  background: gold;
+  margin: auto;
+  width: 0;
+  height: 5px;
+  display: flex;
+  transition: 0.5s;
+}
+
+.contents h2:hover:before {
+  width: 200px;
+}
+.contents img {
+  width: 350px;
+  height: 400px;
+  object-fit: contain;
+}
+
+//antras variantas (nebaigtas - nesuveikė :/ )
+
+// .content {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   margin: 10px auto;
+//   padding: 5px;
+//   color: white;
+//   gap: 50px;
+// }
+// .content-left{
+//   flex-basis: 20%;
+//   text-align: center;
+// }
+// .content-left p {
+//   font-size: 1.3em;
+//   padding: 20px 0px;
+//   color: gold;
+// }
+// .content-left h2 {
+//   font-size: 2em;
+//   color: red;
+// }
+// .content-right img {
+//   width: 300px;
+// }
+
+// .content1{
+//   transform: translateX(0px);
+// }
